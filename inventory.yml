@@ -19,3 +19,10 @@ web_databases:
     db2.demo.local:
       ansible_user: user
       ansible_port: 22
+
+zar:
+  hosts:
+    gitlab.zaraamad:
+#    nexus.zaraamad:
+    stage.zaraamad:
+    prod.zaraamad:
