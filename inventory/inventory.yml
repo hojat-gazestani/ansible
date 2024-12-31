@@ -9,6 +9,10 @@ v2ray:
   hosts:
     192.168.56.151:
 
+template:
+  hosts:
+    template_tala:
+
 shadowsocks:
   hosts:
     example1:
