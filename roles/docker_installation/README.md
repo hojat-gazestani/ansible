@@ -36,3 +36,15 @@ Author Information
 ------------------
 
 An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+
+TODO
+
+    - [ ] Install requirements
+    - [ ] Add docker GPG key
+    - [ ] add docker repo
+        - [ ] change repo to Nexus
+    - [ ] Install docker
+    - [ ] Config mirror registry
+    - [ ] Config live restore
+    - [ ] Config docker logging
+

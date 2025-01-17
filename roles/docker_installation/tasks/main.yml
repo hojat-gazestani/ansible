@@ -1,2 +1,18 @@
 ---
-# tasks file for docker_installation
+- name: docker preparing
+  import_tasks: preparing.yml
+  tags:
+    - docker_preparing
+    - docker
+
+- name: docker installation
+  import_tasks: installation.yml
+  tags:
+    - docker_installation
+    - docker
+
+- name: docker configuration
+  import_tasks: configuration.yml
+  tags:
+    - docker_configuration
+    - docker
