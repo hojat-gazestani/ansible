@@ -13,15 +13,6 @@ template:
   hosts:
     template_tala:
     test-server1:
-      VM_FOLDER: tala
-      DISK_SIZE: 50
-      DATASTORE_NAME: SSD-2TB
-      MEMORY_SIZE: 8192
-      CPU_SIZE: 6
-      NETWORK_NAME: vlan175
-      IPADDRESS: 192.168.175.101
-      DNS_SERVER1: 8.8.8.8
-      DNS_SERVER2: 4.2.2.4
     Zaraamad-UbuS24-Prod1-174.14:
       VM_FOLDER: zaraavand
       ESXI_NAME: 172.27.103.105

@@ -11,7 +11,7 @@
       - pymomi
   delegate_to: localhost
   run_once: true
-  when: confirm_delete.user_input|lower == 'y'
+  #when: confirm_delete.user_input|lower == 'y'
   when: false
 
 - name: Set powerstate of virtual machine to poweroff
