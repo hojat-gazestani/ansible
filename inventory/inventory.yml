@@ -14,16 +14,7 @@ template:
     template_tala:
     test-server1:
     Zaraamad-UbuS24-Prod1-174.14:
-      VM_FOLDER: zaraavand
-      ESXI_NAME: 172.27.103.105
-      DISK_SIZE: 80
-      DATASTORE_NAME: SAS1TB-1
-      MEMORY_SIZE: 8192
-      CPU_SIZE: 6
-      NETWORK_NAME: Pfsense
-      IPADDRESS: 192.168.174.14
-      DNS_SERVER1: 8.8.8.8
-      DNS_SERVER2: 4.2.2.4
+    Tala-UbuS24-Prod-174.103:
 shadowsocks:
   hosts:
     example1:
