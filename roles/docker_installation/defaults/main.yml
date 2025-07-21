@@ -39,10 +39,10 @@ docker_config:
     log_driver: "json-file"
     lables: "{{ ansible_hostname }}"
     max_file: 5
-    max_size: 100M
+    max_size: 200m
   mirror_registry:
     enable: true
-    urls: "https://hub.mecan.ir"
+    urls: "https://docker.arvancloud.ir"
   insecure_registry:
     enable: true
     urls: "https://docker.arvancloud.ir"

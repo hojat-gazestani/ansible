@@ -1,5 +1,2 @@
 ---
-- name: Restart wazuh Agent
-  service:
-    name: wazuh-agent
-    state: restarted
+# handlers file for roles/wazuh-agent

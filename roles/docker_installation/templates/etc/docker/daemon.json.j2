@@ -10,8 +10,8 @@
   "log-driver": "{{ docker_config.logging.log_driver}}",
   "log-opts": {
     "labels": "{{ docker_config.logging.lables }}",
-    "max-size": "{{ docker_config.logging.max_file }}",
-    "max-file": "{{ docker_config.logging.max_size }}"
+    "max-size": "{{ docker_config.logging.max_size }}",
+    "max-file": "{{ docker_config.logging.max_file }}"
     },
   {% endif %}
   {% if docker_config.mirror_registry.enable == true %}

@@ -7,12 +7,7 @@ i<!--
 <ossec_config>
   <client>
     <server>
-      <address>{% for ip in ansible_facts['ansible_all_ipv4_addresses'] %}
-                 {% if ip | ipaddr('192.168.174.0/24') %}
-                   {{ ip }}
-                   {% break %}
-                 {% endif %}
-               {% endfor %}</address>
+<address>{{ wazuh_manager_ip }}</address>
       <port>1514</port>
       <protocol>tcp</protocol>
     </server>
@@ -185,8 +180,8 @@ i<!--
 
 <ossec_config>
   <localfile>
-    <log_format>json</log_format>
-    <location>/var/log/suricata/eve.json</location>
+    <log_format>journald</log_format>
+    <location>journald</location>
   </localfile>
 
   <localfile>
